@@ -2,7 +2,13 @@ import React from 'react';
 
 class App extends React.Component{
     render() {
-        return (<h1>GitHub Browser</h1>);
+        return (
+            <div className='ui container'>
+                <header>
+                    <h1>GitHub Browser</h1>
+                </header>
+            </div>
+        );
     }
 }
 
